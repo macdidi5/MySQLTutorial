@@ -1,0 +1,14 @@
+SET sql_mode = 'STRICT_ALL_TABLES,ALLOW_INVALID_DATES'
+
+
+INSERT INTO debug (fint, fdate) 
+VALUES (0, '2000-02-31')
+
+
+SET sql_mode = 'STRICT_ALL_TABLES,NO_ZERO_DATE,NO_ZERO_IN_DATE'
+
+
+SET sql_mode = 'STRICT_ALL_TABLES,ERROR_FOR_DIVISION_BY_ZERO'
+
+
+INSERT INTO debug (fint, fdouble) VALUES (0, 1/0)

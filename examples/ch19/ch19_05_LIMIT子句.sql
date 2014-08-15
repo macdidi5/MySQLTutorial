@@ -1,0 +1,4 @@
+SELECT * FROM country LIMIT 100, 5
+
+
+SELECT * FROM country ORDER BY Code LIMIT 100, 5

@@ -1,0 +1,8 @@
+SELECT ROUTINE_TYPE, ROUTINE_NAME, CREATED
+FROM   information_schema.ROUTINES
+
+
+SELECT   TABLE_NAME, COUNT(*) column_count
+FROM     information_schema.COLUMNS
+WHERE    TABLE_SCHEMA = 'world'
+GROUP BY TABLE_NAME
