@@ -1,7 +1,3 @@
-﻿set character_set_client='big5';
-set character_set_connection='big5';
-set character_set_results='big5';
-
 DROP DATABASE IF EXISTS cmdev;
 
 CREATE DATABASE cmdev CHARACTER SET big5;
